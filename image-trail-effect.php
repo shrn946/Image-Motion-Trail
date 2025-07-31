@@ -100,8 +100,8 @@ add_action('admin_menu', 'tv_effect_menu_page');
 function tv_effect_settings_page() {
     ?>
     <div class="wrap">
-        <h1> TV Effect Shortcode Guide</h1>
-        <p>This plugin adds a retro TV screen animation effect to any image using a simple shortcode.</p>
+        <h1> Image Trail Effect Shortcode Guide</h1>
+        <p>This plugin adds a Image Trail Effect to any image using a simple shortcode.</p>
 
         <h2> Shortcode Usage</h2>
          <pre>[image_trail]</pre>

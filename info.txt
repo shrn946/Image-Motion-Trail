@@ -1,0 +1,76 @@
+=== Image Trail Animation ===
+Contributors: WP Design Lab
+Tags: animation, tv effect, image trail, gsap, shortcode, retro tv
+Requires at least: 5.0
+Tested up to: 6.5
+Stable tag: 1.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+== Description ==
+
+Add a retro TV screen animation effect to any image using a simple shortcode. The plugin uses CSS animations and GSAP-powered JavaScript to create a dynamic, vintage television look with scan lines, glow effects, and smooth image transitions.
+
+Perfect for creative websites, portfolios, or adding nostalgic flair to your media content.
+
+== Features ==
+- Easy-to-use shortcode system
+- Responsive design with smooth animations
+- Uses GSAP for high-performance animations
+- Customizable image via `image_url` attribute
+- Admin guide page with usage instructions
+- Default demo image included
+
+== Shortcode Usage ==
+
+Use the following shortcode to display an image with the TV effect:
+
+[image_trail image_url="https://yoursite.com/wp-content/uploads/your-image.jpg" ]
+
+=== Attributes ===
+- `image_url` – URL of the image to display inside the TV screen.  
+  Default: [Plugin Directory]/img/demo.jpg
+
+== Installation ==
+
+1. Upload the plugin folder to `/wp-content/plugins/` or install via WordPress plugin uploader.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Use the shortcode `[image_trail image_url="your-image-url.jpg"]` in any post, page, or widget.
+
+== Frequently Asked Questions ==
+
+= Can I customize the animation? =
+Yes! The animation is powered by GSAP and styled with CSS. You can edit `js/index.js` and `css/base.css` in the plugin directory to adjust timing, effects, or visuals.
+
+= Is this plugin compatible with block editors like Gutenberg? =
+Yes. You can use the shortcode inside a Shortcode block.
+
+= Where is the default image stored? =
+The default demo image is located in the plugin’s `img/demo.jpg`. On activation, it may also be copied to `/wp-content/uploads/tv-effect-plugin/demo.jpg` for backup purposes.
+
+== Changelog ==
+
+= 1.0 =
+- Initial release.
+- Added TV screen animation effect.
+- Implemented shortcode with image URL support.
+- Enqueued GSAP and custom scripts.
+- Created admin settings page with usage guide.
+
+== Upgrade Notice ==
+
+= 1.0 =
+No upgrades available yet. This is the initial version.
+
+== Screenshots ==
+
+1. screenshot-1.jpg - Example of the TV effect applied to an image.
+2. admin-guide.png - Admin settings page showing shortcode usage.
+
+== License ==
+
+This plugin is released under the GNU General Public License v2.0 or later.
+
+== Acknowledgements ==
+
+Uses GSAP (GreenSock Animation Platform) via CDN for smooth animations.

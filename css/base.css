@@ -1,0 +1,67 @@
+
+
+.frane-tv {
+	padding: 1.5rem 2rem 10vh;
+	text-align: center; 
+	position: relative;
+}
+
+.frane-tv__title {
+	margin: 0;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.frane-tv__links {
+	margin: 0.5rem 0 2rem;
+}
+
+.frane-tv__links a:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.content-tv {
+	flex: 1;
+	display: grid;
+	place-items: center;
+}
+
+.trail {
+	position: relative;
+	display: grid;
+	place-items: center;
+}
+
+.no-js .trail {
+	width: 250px;
+	height: 375px;
+	background-size: cover;
+}
+
+.trail__img {
+	max-height: 45vh;
+	position: relative;
+	will-change: transform;
+	grid-area: 1 / 1 / 2 / 2;
+	border-radius: 50% !important;
+}
+
+@media screen and (min-width: 53em) {
+	.tv-effect-main {
+	/*	height: 100vh;
+		display: flex;
+		flex-direction: column;*/
+	}
+	.frane-tv {
+		padding: 1.5rem 2rem 0;
+		display: grid;
+		grid-template-columns: auto 1fr auto;
+		grid-template-areas: 'title links sponsor';
+		grid-gap: 3vw;
+		justify-content: space-between;
+		text-align: left;
+	}
+	.frane-tv__links {
+		margin: 0;
+	}
+}
